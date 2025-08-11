@@ -1,0 +1,1 @@
+Àh<?php exit; ?>a:2:{s:7:"content";s:147:"["wp-content\/plugins\/insert-headers-and-footers\/build\/admin-bar.js","wp-includes\/js\/dist\/hooks.min.js","wp-includes\/js\/dist\/i18n.min.js"]";s:15:"key_version_all";i:62;}

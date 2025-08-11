@@ -1,0 +1,1 @@
+¥h<?php exit; ?>a:2:{s:7:"content";s:76:"["wp-includes\/js\/dist\/hooks.min.js","wp-includes\/js\/dist\/i18n.min.js"]";s:15:"key_version_all";i:62;}

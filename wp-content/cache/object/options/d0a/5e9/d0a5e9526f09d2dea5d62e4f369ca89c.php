@@ -1,0 +1,1 @@
+¥h<?php exit; ?>a:2:{s:7:"content";s:169:"["wp-includes\/js\/api-request.min.js","wp-includes\/js\/dist\/vendor\/wp-polyfill.min.js","wp-includes\/js\/dist\/url.min.js","wp-includes\/js\/dist\/api-fetch.min.js"]";s:15:"key_version_all";i:62;}

@@ -1,0 +1,1 @@
+Ñh<?php exit; ?>a:2:{s:7:"content";a:1:{i:0;s:117:"/var/www/html/ziagotechnologies.com/wp-content/plugins/simple-custom-post-order/languages/simple-custom-post-order.mo";}s:15:"key_version_all";i:1;}

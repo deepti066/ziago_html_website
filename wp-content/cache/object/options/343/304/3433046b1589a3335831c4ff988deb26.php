@@ -1,0 +1,1 @@
+Àh<?php exit; ?>a:2:{s:7:"content";s:149:"["wp-content\/plugins\/insert-headers-and-footers\/build\/admin-bar.css","wp-includes\/css\/dashicons.min.css","wp-includes\/css\/admin-bar.min.css"]";s:15:"key_version_all";i:62;}
