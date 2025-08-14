@@ -55,6 +55,15 @@
 		/*! This file is auto-generated */
 		!function (s, n) { var o, i, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === a[t] }) } function u(e, t) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)if (0 !== n.data[a]) return !1; return !0 } function f(e, t, n, a) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !a(e, "\ud83e\udedf") }return !1 } function g(e, t, n, a) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : s.createElement("canvas"), o = r.getContext("2d", { willReadFrequently: !0 }), i = (o.textBaseline = "top", o.font = "600 32px Arial", {}); return e.forEach(function (e) { i[e] = t(o, e, n, a) }), i } function t(e) { var t = s.createElement("script"); t.src = e, t.defer = !0, s.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", i = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { s.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));", a = new Blob([e], { type: "text/javascript" }), r = new Worker(URL.createObjectURL(a), { name: "wpTestEmojiSupports" }); return void (r.onmessage = function (e) { c(n = e.data), r.terminate(), t(n) }) } catch (e) { } c(n = g(i, f, p, u)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
 	</script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TLR47577ZX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-TLR47577ZX');
+	</script>
 	<link rel='stylesheet' id='swiper-css' href='./css/elementor-assets-lib-swiper-v8-css-swiper.min.css' media='all' />
 	<link rel='stylesheet' id='e-swiper-css' href='./css/elementor-assets-css-conditionals-e-swiper.min.css'
 		media='all' />
@@ -633,8 +642,8 @@
 	</style>
 	<div id="cookie-banner">
 		<p> We use cookies to improve your experience on our website. By browsing this site, you agree to our use of
-			cookies. <a href="./privacy-policy.html" style="color:#10b981; text-decoration:underline;">Learn more</a> <button
-				onclick="acceptCookies()">Accept</button> </p>
+			cookies. <a href="./privacy-policy.html" style="color:#10b981; text-decoration:underline;">Learn more</a>
+			<button onclick="acceptCookies()">Accept</button> </p>
 	</div>
 	<script>
 		function acceptCookies() {
@@ -873,51 +882,49 @@
 												<ul id="menu-1-705b70d" class="menu">
 													<li id="menu-item-5441"
 														class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-31 current_page_item menu-item-5441">
-														<a href="./about.html"><span
-																class="menu-title">About</span></a></li>
+														<a href="./about.html"><span class="menu-title">About</span></a>
+													</li>
 													<li id="menu-item-5999"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5999">
 														<a href="#"><span class="menu-title">Services</span></a>
 														<ul class="sub-menu">
 															<li id="menu-item-7101"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7101">
-																<a
-																	href="./technology-consulting.html"><span
+																<a href="./technology-consulting.html"><span
 																		class="menu-title">Technology
-																		Consulting</span></a></li>
+																		Consulting</span></a>
+															</li>
 															<li id="menu-item-7100"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7100">
-																<a
-																	href="./system-integration.html"><span
+																<a href="./system-integration.html"><span
 																		class="menu-title">System Integration</span></a>
 															</li>
 															<li id="menu-item-7102"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7102">
-																<a
-																	href="./software-development.html"><span
+																<a href="./software-development.html"><span
 																		class="menu-title">Software
-																		Development</span></a></li>
+																		Development</span></a>
+															</li>
 															<li id="menu-item-7099"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7099">
 																<a href="./edi-solutions.html"><span
 																		class="menu-title">EDI &#038; B2B
-																		Integration</span></a></li>
+																		Integration</span></a>
+															</li>
 															<li id="menu-item-7098"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7098">
-																<a
-																	href="./quality-assurance.html"><span
+																<a href="./quality-assurance.html"><span
 																		class="menu-title">Quality Assurance &#038;
-																		Quality Engineering</span></a></li>
+																		Quality Engineering</span></a>
+															</li>
 															<li id="menu-item-8040"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8040">
-																<a
-																	href="./digital-marketing.html"><span
+																<a href="./digital-marketing.html"><span
 																		class="menu-title">Digital Marketing</span></a>
 															</li>
 															<li id="menu-item-7097"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7097">
-																<a
-																	href="./staffing-service.html"><span
+																<a href="./staffing-service.html"><span
 																		class="menu-title">Staffing Service</span></a>
 															</li>
 														</ul>
@@ -925,11 +932,13 @@
 													<li id="menu-item-5538"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5538">
 														<a href="./clients.html"><span
-																class="menu-title">Clients</span></a></li>
+																class="menu-title">Clients</span></a>
+													</li>
 													<li id="menu-item-87"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87">
 														<a href="./contact-us.html"><span
-																class="menu-title">Contact</span></a></li>
+																class="menu-title">Contact</span></a>
+													</li>
 												</ul>
 											</div>
 										</nav>
@@ -1381,8 +1390,7 @@
 												data-widget_type="site-logo.default">
 												<div class="elementor-widget-container">
 													<div class="hfe-site-logo"> <a data-elementor-open-lightbox=""
-															class='elementor-clickable'
-															href="./index.html">
+															class='elementor-clickable' href="./index.html">
 															<div class="hfe-site-logo-set">
 																<div class="hfe-site-logo-container"> <img
 																		class="hfe-site-logo-img elementor-animation-"
@@ -1461,9 +1469,8 @@
 												data-widget_type="icon-list.default">
 												<div class="elementor-widget-container">
 													<ul class="elementor-icon-list-items">
-														<li class="elementor-icon-list-item"> <a
-																href="./about.html"> <span
-																	class="elementor-icon-list-icon"> <svg
+														<li class="elementor-icon-list-item"> <a href="./about.html">
+																<span class="elementor-icon-list-icon"> <svg
 																		aria-hidden="true"
 																		class="e-font-icon-svg e-fas-square-full"
 																		viewbox="0 0 512 512"
@@ -1472,9 +1479,8 @@
 																	</svg> </span> <span
 																	class="elementor-icon-list-text">About
 																	Company</span> </a> </li>
-														<li class="elementor-icon-list-item"> <a
-																href="./clients.html"> <span
-																	class="elementor-icon-list-icon"> <svg
+														<li class="elementor-icon-list-item"> <a href="./clients.html">
+																<span class="elementor-icon-list-icon"> <svg
 																		aria-hidden="true"
 																		class="e-font-icon-svg e-fas-square-full"
 																		viewbox="0 0 512 512"
@@ -1483,9 +1489,8 @@
 																	</svg> </span> <span
 																	class="elementor-icon-list-text">Our Clients</span>
 															</a> </li>
-														<li class="elementor-icon-list-item"> <a
-																href="./index.html"> <span
-																	class="elementor-icon-list-icon"> <svg
+														<li class="elementor-icon-list-item"> <a href="./index.html">
+																<span class="elementor-icon-list-icon"> <svg
 																		aria-hidden="true"
 																		class="e-font-icon-svg e-fas-square-full"
 																		viewbox="0 0 512 512"
@@ -1745,47 +1750,44 @@
 				</div>
 			</nav>
 			<nav class="mobile-menu-tab mobile-navigation-categories mobile-categories-menu"
-					aria-label="Mobile Navigation">
-					<div class="menu">
-						<ul>
-							<li><a href="./index.html">Home</a></li>
-							<li class="page_item page-item-31 current_page_item"><a href="./about.html"
-									aria-current="page">About us</a></li>
-							<li class="page_item page-item-25"><a href="./blog.html">Blog</a></li>
-							<li class="page_item page-item-7967"><a
-									href="./refund-policy.html">Cancellation &#038; Refund
-									Policy</a></li>
-							<li class="page_item page-item-39"><a href="./clients.html">Clients</a></li>
-							<li class="page_item page-item-85"><a href="./contact-us.html">Contact
-									us</a></li>
-							<li class="page_item page-item-8022"><a
-									href="./digital-marketing.html">Digital Marketing</a></li>
-							<li class="page_item page-item-7059"><a href="./edi-solutions.html">EDI
-									&#038; B2B Integration</a></li>
-							<li class="page_item page-item-27"><a href="./icons.html">Icons</a></li>
-							<li class="page_item page-item-2549"><a
-									href="./privacy-policy.html">Privacy Policy</a></li>
-							<li class="page_item page-item-7088"><a
-									href="./quality-assurance.html">Quality Assurance &#038; Quality
-									Engineering</a></li>
-							<li class="page_item page-item-33"><a href="./services.html">Services</a></li>
-							<li class="page_item page-item-7976"><a
-									href="./shipping-delivery-policy.html">Shipping &#038; Delivery
-									Policy</a></li>
-							<li class="page_item page-item-7002"><a
-									href="./software-development.html">Software Development</a></li>
-							<li class="page_item page-item-7092"><a
-									href="./staffing-service.html">Staffing Service</a></li>
-							<li class="page_item page-item-7041"><a
-									href="./system-integration.html">System Integration</a></li>
-							<li class="page_item page-item-7028"><a
-									href="./technology-consulting.html">Technology Consulting</a>
-							</li>
-							<li class="page_item page-item-5356"><a
-									href="terms-conditions.html">Terms &#038; Conditions</a></li>
-						</ul>
-					</div>
-				</nav>
+				aria-label="Mobile Navigation">
+				<div class="menu">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li class="page_item page-item-31 current_page_item"><a href="./about.html"
+								aria-current="page">About us</a></li>
+						<li class="page_item page-item-25"><a href="./blog.html">Blog</a></li>
+						<li class="page_item page-item-7967"><a href="./refund-policy.html">Cancellation &#038; Refund
+								Policy</a></li>
+						<li class="page_item page-item-39"><a href="./clients.html">Clients</a></li>
+						<li class="page_item page-item-85"><a href="./contact-us.html">Contact
+								us</a></li>
+						<li class="page_item page-item-8022"><a href="./digital-marketing.html">Digital Marketing</a>
+						</li>
+						<li class="page_item page-item-7059"><a href="./edi-solutions.html">EDI
+								&#038; B2B Integration</a></li>
+						<li class="page_item page-item-27"><a href="./icons.html">Icons</a></li>
+						<li class="page_item page-item-2549"><a href="./privacy-policy.html">Privacy Policy</a></li>
+						<li class="page_item page-item-7088"><a href="./quality-assurance.html">Quality Assurance &#038;
+								Quality
+								Engineering</a></li>
+						<li class="page_item page-item-33"><a href="./services.html">Services</a></li>
+						<li class="page_item page-item-7976"><a href="./shipping-delivery-policy.html">Shipping &#038;
+								Delivery
+								Policy</a></li>
+						<li class="page_item page-item-7002"><a href="./software-development.html">Software
+								Development</a></li>
+						<li class="page_item page-item-7092"><a href="./staffing-service.html">Staffing Service</a></li>
+						<li class="page_item page-item-7041"><a href="./system-integration.html">System Integration</a>
+						</li>
+						<li class="page_item page-item-7028"><a href="./technology-consulting.html">Technology
+								Consulting</a>
+						</li>
+						<li class="page_item page-item-5356"><a href="terms-conditions.html">Terms &#038; Conditions</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 	</div>
 	<div class="neotech-overlay"></div>
